@@ -193,7 +193,6 @@ body {
   width: 150px;
   padding-top: 30px;
   padding-bottom: 40px;
-
 }
 
 .foto-leaders-tengah {
@@ -269,7 +268,7 @@ body {
   border: 1px solid #ffffff;
   border-radius: 12px;
   padding: 10px;
-  font-size:1.1em ;
+  font-size: 1.1em;
 }
 
 .division-name-tengah {
@@ -288,5 +287,37 @@ body {
   border: 1px solid #ffffff;
   border-radius: 12px;
   padding: 10px;
-  font-size:1.1em ;
+  font-size: 1.1em;
+}
+
+.foto-team-members {
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.card-foto-1,
+.card-foto-2 {
+  margin-bottom: 5%;
+  gap: 50px;
+  display: flex;
+}
+
+.card-foto-1 img, .card-foto-2 img {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: -12px 12px 5px -2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -12px 12px 5px -2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -12px 12px 5px -2px rgba(0, 0, 0, 0.4);
+}
+
+.card-foto-1 img:hover, .card-foto-2 img:hover {
+  background-image: url(../img/foto-members-hover.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
 }
